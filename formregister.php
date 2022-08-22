@@ -38,6 +38,22 @@
                 <i class="fa-solid fa-lock"></i>
                 <input type="password" name="cpassword" class="input" placeholder="Confirm Password" required>
             </div>
+            <div class="form-field d-flex align-items-center">
+                <span class="far fa-user"></span>
+                <label for="kelamin">Jenis kelamin: <br></label>
+                <br>
+                <br>
+                <label><input type="radio" name="kelamin" value="laki-laki"> laki-laki</label>
+                <label><input type="radio" name="kelamin" value="perempuan"> perempuan</label>
+            </div>
+            <div class="form-field d-flex align-items-center">
+                <span class="far fa-user"></span>
+                <input type="text" name="alamat" id="alamat" placeholder="alamat">
+            </div>
+            <div class="form-field d-flex align-items-center">
+                <span class="far fa-user"></span>
+                <input type="text" name="no_hp" id="no_hp" placeholder="Nomor Handphone">
+            </div>
             <button class="btn mt-3" name="submit">Sign Up</button>
         </form>
         <div class="text-center fs-6">
